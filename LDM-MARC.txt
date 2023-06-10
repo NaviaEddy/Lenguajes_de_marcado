@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registro Bibliográfico MARC</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Registro Bibliográfico MARC</h1>
+
+  <table>
+    <tr>
+      <th>Campo</th>
+      <th>Valor</th>
+    </tr>
+    <tr>
+      <td>001</td>
+      <td>123456789</td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td>
+        <subfield code="a">Doe, John</subfield>
+        <subfield code="e">author</subfield>
+      </td>
+    </tr>
+    <tr>
+      <td>245</td>
+      <td>
+        <subfield code="a">Sample Book Title</subfield>
+        <subfield code="b">Subtitle</subfield>
+        <subfield code="c">/</subfield>
+        <subfield code="h">[electronic resource]</subfield>
+      </td>
+    </tr>
+    <tr>
+      <td>260</td>
+      <td>
+        <subfield code="a">New York :</subfield>
+        <subfield code="b">Publisher,</subfield>
+        <subfield code="c">2022.</subfield>
+      </td>
+    </tr>
+    <tr>
+      <td>300</td>
+      <td>
+        <subfield code="a">xii, 300 pages :</subfield>
+        <subfield code="b">illustrations ;</subfield>
+        <subfield code="c">25 cm</subfield>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
